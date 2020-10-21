@@ -12,7 +12,7 @@ Description: Files processing and creation.
 #include <sys/stat.h>
 #include <unistd.h>
 #include <time.h>
-#define PREFIX "movies_"
+#define PREFIX "movies_" //narrow down .csv files with names starting with movies_
 
 struct movies {
     char *title;
