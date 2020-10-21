@@ -33,6 +33,7 @@ void* concatination(char *uno, char *dos) {
     return result;
 }
 
+// creates a struct movie linked list
 struct movies *createMovie(char *currLine) {
     struct movies *currMovie = malloc(sizeof(struct movies));
 
@@ -110,9 +111,9 @@ struct movies *process_file(char* file) {
 char* dir_name_func(){
     int choice;
     int max_bound = 100000;
-    char *pathname = "balijepn.movies.";
+    char *pathname = "system.directory."; // the custom directory
     srand(time(NULL)); //Had to use srand() becuase rand() was generating the same number everytime
-    int r = rand() % max_bound;
+    int r = rand() % max_bound; // the random ID
     char rand_num[7];
     sprintf(rand_num,"%d",r);
     char* fin = concatination(pathname,rand_num);
