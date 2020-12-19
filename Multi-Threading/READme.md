@@ -8,11 +8,11 @@ This program will take in a file input and start processing immediately followin
 
 #### Process Flow:
 - Thread 1: take user input.
-  >> buffer #1
+  > buffer #1
 - Thread 2: remove '/n' to make processing easier
-  >> buffer #2
+  > buffer #2
 - Thread 3: remove "++" to a "^"
-  >> buffer #3
+  > buffer #3
 - Thread 4: ouptut 80 charectors per line.
 
 ![Screenshot](buffer_threads.PNG)
