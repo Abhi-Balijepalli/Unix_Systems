@@ -1,5 +1,5 @@
 # Author: Nag Balijepalli
-Name: One Time Pads (Client & Server -> Encryption)
+ One Time Pads (Client & Server -> Encryption)
 ------
 - To compile: **compileall**
 - To run test script: **./p5testscript <RANDOM PORT> <RANDOM PORT> <redirection or stdout>**
