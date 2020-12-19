@@ -3,7 +3,6 @@ Multithreaded processing
 - To Compile: **gcc --std=gnu99 -lpthread -g -o line_processor main.c**
 - To Run: **./line_processor < input1.txt > output.txt**
 -------
-Note:
 This program will take in a file input and start processing immediately following a producer-consumer process until it hits a "STOP". It will change every "++" to a '^' and only print 80 charectors per line.
 
 #### Process Flow:
