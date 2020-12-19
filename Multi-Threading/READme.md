@@ -14,5 +14,6 @@ This program will take in a file input and start processing immediately followin
 - Thread 3: remove "++" to a "^"
   > buffer #3
 - Thread 4: ouptut 80 charectors per line.
+  > stdout (File I/O)
 
 ![Screenshot](buffer_threads.PNG)
