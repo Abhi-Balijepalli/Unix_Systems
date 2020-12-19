@@ -4,7 +4,9 @@ Name: Multithreaded processing
 -To run: gcc --std=gnu99 -lpthread -g -o program main.c.
 
 Note:
-This program will take in a file input and start processing immediatly following a producer-consumer process until it hits a STOP. It will change every ++ to a ^ and only print 80 charectors per line.
+This program will take in a file input and start processing immediately following a producer-consumer process until it hits a "STOP". It will change every "++" to a '^' and only print 80 charectors per line.
+
+#### Process Flow:
 - Thread 1: take user input.
   -- buffer #1
 - Thread 2: remove '/n' to make processing easier
